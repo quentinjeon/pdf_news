@@ -1,4 +1,4 @@
-# 🔍 Firecrawl + Streamlit 기반 심층 웹 리서치 자동 보고서 생성 도구
+# 🔍 심층 웹 리서치 자동 보고서 생성기
 
 웹 데이터를 탐색하거나 업로드한 문서를 분석하여 기사형 보고서를 자동으로 생성하는 도구입니다.
 
@@ -13,8 +13,8 @@
 
 1. 저장소 클론
    ```
-   git clone https://github.com/yourusername/firecrawl-report-generator.git
-   cd firecrawl-report-generator
+   git clone https://github.com/quentinjeon/pdf_news.git
+   cd pdf_news
    ```
 
 2. 필요 패키지 설치
@@ -55,4 +55,4 @@ streamlit run app.py
 - **Firecrawl API**: 웹 데이터 수집
 - **OpenAI API**: 텍스트 생성
 - **PyMuPDF, python-docx**: 문서 분석
-- **Python**: 백엔드 처리 
+- **Python**: 백엔드 처리
